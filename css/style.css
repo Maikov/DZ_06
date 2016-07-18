@@ -180,7 +180,7 @@ a.forgot {
   float: left;
   margin: 0 auto;
   margin-top: 3px;
-  padding: 6px 15px 0px 15px;
+  padding: 6px 14px 0px 15px;
 }
 
 .main-menu ul li a {
@@ -825,12 +825,13 @@ figure .tovar-price span {
   cursor: pointer;
   border: 1px solid rgb(167, 171, 174);
   border-radius: 11px;
-  box-shadow:         2px 3px 3px 0px rgba(50, 50, 50, 0.2);
-  background-image: linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+  outline: none;
+  box-shadow: 2px 3px 3px 0px rgba(50, 50, 50, 0.2);
+  background-image: linear-gradient(-90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
 }
 
 .side-right input[type=submit]:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 /*--------------------TIRES COMPANIES LOGO-----------------*/
@@ -839,13 +840,18 @@ figure .tovar-price span {
   text-align: center;
   height: auto;
   padding-top: 42px;
+  padding-bottom: 4px;
   box-sizing: border-box;
 }
 
 .tires-companies a {
   display: inline-block;
   vertical-align: top;
-  margin: 0 4px 0 6px;
+  margin: 0px 4px 0 5px;
+}
+
+.factor {
+	margin-top: -4px;
 }
 
 /*--------------------FOOTER-----------------*/
@@ -860,7 +866,6 @@ footer {
 }
 
 footer .line {
-
   width: 100%;
   border-top: 1px solid #e2e3e5;
   border-bottom: 1px solid #242c3e;
