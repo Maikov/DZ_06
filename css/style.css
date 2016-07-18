@@ -662,11 +662,10 @@ main {
   color: #0c3256;
 }
 
-/*--------------------CONTENT-----------------*/
+/*--------------------CENTER CONTENT-----------------*/
 
 .content {
-  
-  display:table-cell;
+  display: table-cell;
   vertical-align: top;
 }
 
@@ -708,6 +707,14 @@ figure .model {
   color: #1f2528;
   display: block;
   text-align: center;
+}
+
+figure .model_3 {
+  font: 13px/13px Lucida, Arial, sans-serif;
+  color: #1f2528;
+  display: block;
+  text-align: center;
+  letter-spacing: 1.1px;
 }
 
 figure .tovar-image {
